@@ -1,0 +1,47 @@
+[auto-move-windows]
+application-list=@as []
+
+[just-perfection]
+accent-color-icon=false
+activities-button=true
+invert-calendar-column-items=false
+looking-glass-width=0
+max-displayed-search-results=0
+panel=true
+panel-in-overview=true
+support-notifier-showed-version=34
+support-notifier-type=0
+theme=false
+window-maximized-on-create=false
+
+[space-bar/appearance]
+active-workspace-background-color='rgb(53,132,228)'
+active-workspace-font-size-active=false
+active-workspace-font-size-user=10
+application-styles='.space-bar {\n  -natural-hpadding: 12px;\n}\n\n.space-bar-workspace-label.active {\n  margin: 0 4px;\n  background-color: rgb(53,132,228);\n  color: rgba(255,255,255,1);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}\n\n.space-bar-workspace-label.inactive {\n  margin: 0 4px;\n  background-color: rgba(0,0,0,0);\n  color: rgba(255,255,255,1);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}\n\n.space-bar-workspace-label.inactive.empty {\n  margin: 0 4px;\n  background-color: rgba(0,0,0,0);\n  color: rgba(255,255,255,0.5);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}'
+
+[space-bar/behavior]
+always-show-numbers=false
+position='left'
+
+[space-bar/shortcuts]
+activate-previous-key=@as []
+back-and-forth=true
+enable-move-to-workspace-shortcuts=true
+
+[space-bar/state]
+version=33
+
+[switcher]
+fade-enable=false
+font-size=uint32 14
+icon-size=uint32 32
+launcher-stats='{"org.gnome.font-viewer.desktop":3,"Alacritty.desktop":5,"org.mozilla.firefox.desktop":4,"kitty.desktop":4,"org.gnome.tweaks.desktop":1}'
+max-width-percentage=uint32 70
+
+[tophat]
+mount-to-monitor='/'
+position-in-panel='left'
+show-disk=false
+show-icons=true
+show-mem=true
