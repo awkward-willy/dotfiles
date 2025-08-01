@@ -15,9 +15,15 @@ if status is-interactive
     alias l="ls"
     alias ll="ls -alFG"
     alias la="ls -aFG"
-    alias py='python3'
-    alias python='python3'
+    alias py="python3"
+    alias python="python3"
+
+    alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+
+    zoxide init fish --cmd cd | source
+    fastfetch -l small
 end
 
-zoxide init fish --cmd cd | source
-fastfetch -l small
+set -gx GTK_IM_MODULE fcitx
+set -gx QT_IM_MODULE fcitx
+set -gx XMODIFIERS @im=fcitx
