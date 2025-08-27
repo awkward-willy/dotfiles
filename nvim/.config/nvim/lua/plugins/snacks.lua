@@ -1,13 +1,13 @@
 return {
-  {
-    "folke/snacks.nvim",
-    opts = function(_, opts)
-      opts.picker = opts.picker or {}
-      opts.picker.hidden = true
-      opts.picker.ignored = true
-      opts.dashboard = {
-        preset = {
-          header = [[
+  "folke/snacks.nvim",
+  opts = {
+    picker = {
+      hidden = true,
+      ignored = true,
+    },
+    dashboard = {
+      preset = {
+        header = [[
                                                                    
       ████ ██████           █████      ██                 btw
      ███████████             █████                            
@@ -17,10 +17,8 @@ return {
  ███████████ ███    ███ █████████ █████ █████ ████ █████ 
 ██████  █████████████████████ ████ █████ █████ ████ ██████
                                                     Willy Awkward...
-]],
-        },
-      }
-      return opts
-    end,
+   ]],
+      },
+    },
   },
 }
